@@ -1,0 +1,22 @@
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: var(--spacing-4) auto;
+  padding: var(--spacing-4);
+  color: var(--clr-blue-primary);
+}
+
+.input {
+  width: 60rem;
+  margin: var(--spacing-4) auto;
+  padding: var(--spacing-4);
+  color: var(--clr-blue-primary);
+}
+
+.list {
+  width: 60rem;
+  padding: var(--spacing-4) var(--spacing-6);
+}

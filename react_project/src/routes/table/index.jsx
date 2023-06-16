@@ -3,10 +3,10 @@ import Table from '../../components/table';
 
 const { rows, columns } = generateData(200);
 
-function Page() {
+function TablePage() {
   return (
 		<Table data={rows} columns={columns} />
   );
 }
 
-export default Page;
+export default TablePage;

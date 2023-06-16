@@ -2,6 +2,8 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import Layout from './routes/layout';
 import Table from './routes/table';
+import Searchbar from './routes/searchbar';
+import Chart from './routes/searchbar/chart';
 
 const routes = [
   {
@@ -18,7 +20,11 @@ const routes = [
   },
   {
     path: '/searchbar',
-    element: <App />,
+    element: <Searchbar />,
+  },
+  {
+    path: '/searchbar/:id',
+    element: <Chart />,
   },
 ];
 

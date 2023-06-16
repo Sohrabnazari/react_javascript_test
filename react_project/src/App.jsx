@@ -1,5 +1,6 @@
 import styles from './App.module.css';
 import react_logo from './assets/images/react_logo.png';
+import {Link} from 'react-router-dom'
 
 function App() {
   return (
@@ -15,13 +16,16 @@ function App() {
           </p>
           <ul>
             <li>
-              <a href='/'>Step: Routes Like App</a>
+              <Link to='/'>Step: Routes Like App</Link>
             </li>
             <li>
-              <a href='/layout'>Step 2: Layout</a>
+              <Link to='/layout'>Step 2: Layout</Link>
             </li>
             <li>
-              <a href='/table'>Step 3: Cool Table!</a>
+              <Link to='/table'>Step 3: Cool Table!</Link>
+            </li>
+            <li>
+              <Link to='/searchbar'>Step 4: Searchbar</Link>
             </li>
           </ul>
         </div>
