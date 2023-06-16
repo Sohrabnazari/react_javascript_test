@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import Layout from './routes/layout';
+import Table from './routes/table';
 
 const routes = [
   {
@@ -13,7 +14,7 @@ const routes = [
   },
   {
     path: '/table',
-    element: <App />,
+    element: <Table />,
   },
   {
     path: '/searchbar',

@@ -1,0 +1,5 @@
+const SORT_ASCENDING = 'asc';
+const SORT_DESCENDING = 'desc';
+
+
+export {SORT_ASCENDING, SORT_DESCENDING};
