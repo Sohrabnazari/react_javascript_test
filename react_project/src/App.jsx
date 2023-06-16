@@ -1,5 +1,5 @@
-import styles from "./App.module.css";
-import react_logo from "./assets/react_logo.png";
+import styles from './App.module.css';
+import react_logo from './assets/images/react_logo.png';
 
 function App() {
   return (

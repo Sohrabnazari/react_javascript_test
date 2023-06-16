@@ -114,3 +114,14 @@ body {
   color: var(--clr-fg);
   background-color: #fff;
 }
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  
+  @media only screen and (max-width: 913px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}

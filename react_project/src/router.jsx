@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
+import Layout from './routes/layout';
 
 const routes = [
   {
@@ -8,7 +9,7 @@ const routes = [
   },
   {
     path: '/layout',
-    element: <App />,
+    element: <Layout />,
   },
   {
     path: '/table',
