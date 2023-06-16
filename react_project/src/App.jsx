@@ -13,11 +13,16 @@ function App() {
             Add any additional packages you need to the json file when
             installing.
           </p>
-
           <ul>
-            <li><a href="/">App</a></li>
-            <li><a href="/layout">Step 2: Layout</a></li>
-            <li><a href="/table">Step 3: Cool Table!</a></li>
+            <li>
+              <a href='/'>Step: Routes Like App</a>
+            </li>
+            <li>
+              <a href='/layout'>Step 2: Layout</a>
+            </li>
+            <li>
+              <a href='/table'>Step 3: Cool Table!</a>
+            </li>
           </ul>
         </div>
       </div>

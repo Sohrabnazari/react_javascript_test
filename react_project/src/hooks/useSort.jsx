@@ -36,8 +36,6 @@ function useSort(data, columns) {
 
     sortedData.map((item, index) => item.index = index + 1)
 
-    console.log(sortedData)
-
     setSortField(column);
     setSortOrder(order);
     setTableData(sortedData);
